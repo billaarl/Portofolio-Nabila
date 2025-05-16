@@ -6,6 +6,8 @@
     <title>Nabila's Page</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"></script>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script src="your-emailjs-script.js"></script>
     <script src="script.js"></script>
 </head>
 <body class="bg-gray-900 text-gray-100">
@@ -23,7 +25,7 @@
     <header class="text-center py-20">
         <img src="pp.jpg" alt="Profile Picture" class="rounded-full w-40 h-40 object-cover mx-auto">
         <h2 class="text-4xl pt-12 font-bold">Welcome to My Portfolio</h2>
-        <p class="mt-4 text-gray-400">Frontend Dev | Quality Assurance | Game dev Enthusias</p>
+        <p class="mt-4 text-gray-400">Frontend Dev | IT Consultants | Game dev Enthusias</p>
         <div class="mt-6 flex justify-center space-x-6 text-3xl">
             <a href="https://github.com/billaarl" target="_blank" class="text-gray-400 hover:text-white">
                 <i class="fab fa-github"></i>
@@ -47,7 +49,7 @@
         <div class="mt-4 text-gray-400 pt-12 pb-12 max-w-5xl mx-auto text-center">
             <p>
                 I am a Software Developer with a strong background in Informatics Engineering and a deep passion for 
-                technology, software development, quality assurance, and game development. Throughout my journey, 
+                technology, software development, IT Consultat and game development. Throughout my journey, 
                 I have been involved in various projects, including smart parking sensor systems and AI-based games 
                 inspired by Indonesian culture, showcasing my ability to develop innovative and impactful solutions.
             </p>
@@ -56,48 +58,52 @@
         
         <!-- Bagian grid skill di tengah -->
         <div class="mt-6 grid grid-cols-2 md:grid-cols-1 lg:grid-cols-9 gap-4 justify-center">
-            <div class="bg-gray-800 p-4 rounded-lg shadow-md">Java</div>
-            <div class="bg-gray-800 p-4 rounded-lg shadow-md">JavaScript</div>
-            <div class="bg-gray-800 p-4 rounded-lg shadow-md">HTML & CSS</div>
-            <div class="bg-gray-800 p-4 rounded-lg shadow-md">C / C# / C++</div>
-            <div class="bg-gray-800 p-4 rounded-lg shadow-md">Unity 3D</div>
-            <div class="bg-gray-800 p-4 rounded-lg shadow-md">R</div>
-            <div class="bg-gray-800 p-4 rounded-lg shadow-md">Tailwind CSS</div>
-            <div class="bg-gray-800 p-4 rounded-lg shadow-md">Streamlit</div>
-            <div class="bg-gray-800 p-4 rounded-lg shadow-md">MySQL</div>
+            <div class="bg-gray-800 p-4 rounded-lg shadow-md transform transition duration-300 hover:scale-105 hover:-translate-y-1 hover:shadow-xl text-center">Java</div>
+            <div class="bg-gray-800 p-4 rounded-lg shadow-md transform transition duration-300 hover:scale-105 hover:-translate-y-1 hover:shadow-xl text-center">JavaScript</div>
+            <div class="bg-gray-800 p-4 rounded-lg shadow-md transform transition duration-300 hover:scale-105 hover:-translate-y-1 hover:shadow-xl text-center">HTML & CSS</div>
+            <div class="bg-gray-800 p-4 rounded-lg shadow-md transform transition duration-300 hover:scale-105 hover:-translate-y-1 hover:shadow-xl text-center">C / C# / C++</div>
+            <div class="bg-gray-800 p-4 rounded-lg shadow-md transform transition duration-300 hover:scale-105 hover:-translate-y-1 hover:shadow-xl text-center">Unity 3D</div>
+            <div class="bg-gray-800 p-4 rounded-lg shadow-md transform transition duration-300 hover:scale-105 hover:-translate-y-1 hover:shadow-xl text-center">R</div>
+            <div class="bg-gray-800 p-4 rounded-lg shadow-md transform transition duration-300 hover:scale-105 hover:-translate-y-1 hover:shadow-xl text-center">Tailwind CSS</div>
+            <div class="bg-gray-800 p-4 rounded-lg shadow-md transform transition duration-300 hover:scale-105 hover:-translate-y-1 hover:shadow-xl text-center">Streamlit</div>
+            <div class="bg-gray-800 p-4 rounded-lg shadow-md transform transition duration-300 hover:scale-105 hover:-translate-y-1 hover:shadow-xl text-center">MySQL</div>
         </div>
-    </section>
+        
     
     
     
     <section id="projects" class="container mx-auto py-10 px-4">
         <h3 class="text-3xl font-semibold">Projects</h3>
         <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
-            <div class="bg-gray-800 p-4 rounded-lg shadow-lg">
+            <div class="bg-gray-800 p-4 rounded-lg shadow-lg transform transition duration-300 hover:scale-105 hover:-translate-y-2 hover:shadow-xl">
                 <img src="Sentiment.png" alt="Sentiment Analysis on ChatGPT" class="w-full h-40 object-cover rounded-lg">
                 <h4 class="text-xl font-semibold mt-2">Sentiment Analysis on ChatGPT</h4>
                 <p class="mt-2 text-gray-400">Analyzing sentiments of Twitter posts related to ChatGPT.</p>
                 <a href="https://github.com/billaarl/sentiment-analysis-chatgpt" target="_blank" rel="noopener noreferrer" class="text-blue-400 hover:underline mt-2 inline-block">View Project</a>
             </div>
-            <div class="bg-gray-800 p-4 rounded-lg shadow-lg">
+    
+            <div class="bg-gray-800 p-4 rounded-lg shadow-lg transform transition duration-300 hover:scale-105 hover:-translate-y-2 hover:shadow-xl">
                 <img src="Gallery.jpg" alt="LandingPage Art Gallery" class="w-full h-40 object-cover rounded-lg">
                 <h4 class="text-xl font-semibold mt-2">LandingPage Art Gallery</h4>
                 <p class="mt-2 text-gray-400">A beautiful landing page for an art gallery.</p>
                 <a href="https://github.com/billaarl/gallery-Museum" target="_blank" rel="noopener noreferrer" class="text-blue-400 hover:underline mt-2 inline-block">View Project</a>
             </div>
-            <div class="bg-gray-800 p-4 rounded-lg shadow-lg">
+    
+            <div class="bg-gray-800 p-4 rounded-lg shadow-lg transform transition duration-300 hover:scale-105 hover:-translate-y-2 hover:shadow-xl">
                 <img src="Congklak.jpg" alt="Congklak Nusantara" class="w-full h-40 object-cover rounded-lg">
                 <h4 class="text-xl font-semibold mt-2">Congklak Nusantara</h4>
                 <p class="mt-2 text-gray-400">A traditional Indonesian board game brought to digital life.</p>
                 <a href="https://billaarl.itch.io/congklak-nusantara" target="_blank" rel="noopener noreferrer" class="text-blue-400 hover:underline mt-2 inline-block">View Project</a>
             </div>
-            <div class="bg-gray-800 p-4 rounded-lg shadow-lg">
+    
+            <div class="bg-gray-800 p-4 rounded-lg shadow-lg transform transition duration-300 hover:scale-105 hover:-translate-y-2 hover:shadow-xl">
                 <img src="planner.jpg" alt="Planner.id" class="w-full h-40 object-cover rounded-lg">
                 <h4 class="text-xl font-semibold mt-2">Planner.id</h4>
                 <p class="mt-2 text-gray-400">|ONGOING PROJECT| A digital planner application for better productivity.</p>
                 <a href="https://github.com/billaarl/Plan.id" target="_blank" rel="noopener noreferrer" class="text-blue-400 hover:underline mt-2 inline-block">View Project</a>
             </div>
-            <div class="bg-gray-800 p-4 rounded-lg shadow-lg">
+    
+            <div class="bg-gray-800 p-4 rounded-lg shadow-lg transform transition duration-300 hover:scale-105 hover:-translate-y-2 hover:shadow-xl">
                 <img src="Animal matcing.jpg" alt="Animal Matching" class="w-full h-40 object-cover rounded-lg">
                 <h4 class="text-xl font-semibold mt-2">Puzzel Animal Matching</h4>
                 <p class="mt-2 text-gray-400">kidz learning Zone.</p>
@@ -106,31 +112,26 @@
         </div>
     </section>
     
-    <section id="contact" class="container mx-auto py-10 px-4 text-center">
-        <h3 class="text-3xl font-semibold">Contact</h3>
-        <p class="mt-2 text-gray-400">
-            Get in touch with me via email at 
-            <a href="bilaanurul@gmail.com" class="text-blue-400">bilaanurul@gmail.com</a>
-        </p>
-        <form id="contactForm" class="mt-6 max-w-lg mx-auto bg-gray-800 p-6 rounded-lg shadow-lg">
-            <div class="mb-4">
-                <label class="block text-gray-400 text-left" for="name">Name</label>
-                <input type="text" id="name" class="w-full px-4 py-2 rounded-lg bg-gray-700 text-gray-100 border border-gray-600 focus:outline-none focus:border-blue-400">
-            </div>
-            <div class="mb-4">
-                <label class="block text-gray-400 text-left" for="email">Email</label>
-                <input type="email" id="email" class="w-full px-4 py-2 rounded-lg bg-gray-700 text-gray-100 border border-gray-600 focus:outline-none focus:border-blue-400">
-            </div>
-            <div class="mb-4">
-                <label class="block text-gray-400 text-left" for="message">Message</label>
-                <textarea id="message" rows="4" class="w-full px-4 py-2 rounded-lg bg-gray-700 text-gray-100 border border-gray-600 focus:outline-none focus:border-blue-400"></textarea>
-            </div>
-            <button type="submit" class="w-full bg-blue-500 text-white py-2 rounded-lg hover:bg-blue-600">Send</button>
-            <p id="feedbackMessage" class="mt-4 text-green-400 hidden">Message sent successfully!</p>
-        </form>
-    </section>
     
-    <footer class="bg-gray-800 text-center py-4 mt-10">
+    <form id="contactForm" class="mt-6 max-w-lg mx-auto bg-gray-800 p-6 rounded-lg shadow-lg">
+        <div class="mb-4">
+          <label class="block text-gray-400 text-left" for="name">Name</label>
+          <input type="text" id="name" name="from_name" class="w-full px-4 py-2 rounded-lg bg-gray-700 text-gray-100 border border-gray-600 focus:outline-none focus:border-blue-400">
+        </div>
+        <div class="mb-4">
+          <label class="block text-gray-400 text-left" for="email">Email</label>
+          <input type="email" id="email" name="from_email" class="w-full px-4 py-2 rounded-lg bg-gray-700 text-gray-100 border border-gray-600 focus:outline-none focus:border-blue-400">
+        </div>
+        <div class="mb-4">
+          <label class="block text-gray-400 text-left" for="message">Message</label>
+          <textarea id="message" name="message" rows="4" class="w-full px-4 py-2 rounded-lg bg-gray-700 text-gray-100 border border-gray-600 focus:outline-none focus:border-blue-400"></textarea>
+        </div>
+        <button type="submit" class="w-full bg-blue-500 text-white py-2 rounded-lg hover:bg-blue-600">Send</button>
+        <p id="feedbackMessage" class="mt-4 text-green-400 hidden">Message sent successfully!</p>
+      </form>
+      
+    
+    <footer class="bg-gray-800 text-center px-4 py-4 mt-10">
         <p class="text-gray-400">&copy; 2025 My Portfolio</p>
     </footer>
 </body>
